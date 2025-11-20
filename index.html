@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+    <div class="container">
+<main>
+        <!-- projects section starts here -->
+        <section id="about" class="about">
+            <div class="intro">
+                <h2>Hi!</h2>
+                <h2>I'am <span>Jahana Sherin</span></h2>
+                <h1>Web Developer</h1>
+                <p>A passionate Web Developer specializing in creating modern, responsive, and
+                    user-friendly websites.</p>
+                <p>With experience in HTML, CSS, JavaScript, and frameworks like [React / Laravel ], I
+                    focus on clean code, performance, and accessibility. I love learning new technologies and staying
+                    current with industry trends to build better, smarter solutions.</p>
+            </div>
+            <div class="image">
+                    <img src="images/me-removebg-preview.png" width="400px" alt="my image">
+            </div>
+
+        </section>
+        <!-- projects section starts here -->
+        <section id="projects" class="projects">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio built with HTML, CSS, and JavaScript to showcase my projects and skills.
+                        Features smooth animations, responsive design, and a contact form integrated with EmailJS.
+                    </p>
+                </li>
+                <li>
+                    <h3>E-Commerce Store</h3>
+                    <p>Developed a full-stack online store using Laravel and MongoDB with Stripe payment
+                        integration. Includes product management, shopping cart, order tracking, and user
+                        authentication.</p>
+                </li>
+                <li>
+                    <h3>Blog Platform</h3>
+                    <p>Developed a content management system where users can publish and comment on articles. Built
+                        with Laravel, and Tailwind CSS for a fast, reactive experience.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- contact section starts here -->
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <!-- html form -->
+            <form action="" method="post">
+                <!-- <label for="">Name:</label> -->
+                <input type="text" name="name" placeholder="Enter your name here">
+                <!-- <label for="">Email:</label> -->
+                <input type="email" name="email" required id="" placeholder="Enter your Email">
+                <!-- <label for="">Subject:</label> -->
+                <input type="text" name="subject" id="" placeholder="Enter the subject">
+                <!-- <label for="">Message:</label> -->
+                <textarea name="message" placeholder="Type the message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    </div>
+</body>
+
+</html>
